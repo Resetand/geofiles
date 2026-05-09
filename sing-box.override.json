@@ -20,7 +20,9 @@
           "fitness.apple.com",
           "play.itunes.apple.com",
           "hls-svod.itunes.apple.com",
-          "hls-svod-ve.itunes.g.aaplimg.com"
+          "hls-svod-ve.itunes.g.aaplimg.com",
+          "content.fe2.apple-dns.net",
+          "sharedstreams.fe2.apple-dns.net"
         ]
       }
     ]
