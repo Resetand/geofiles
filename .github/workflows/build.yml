@@ -98,7 +98,9 @@ jobs:
             SRS_FILE="./out/sing-box/${key}.srs"
 
             if [[ ! -f "$SRS_FILE" ]]; then
-              echo "SKIP: ${key}.srs not found"
+              echo "CREATE: ${key}.srs"
+              jq --arg k "$key" '{ version: 3, rules: .[$k].rules }' "$OVERRIDE_FILE" > "/tmp/${key}.json"
+              "$SING_BOX" rule-set compile "/tmp/${key}.json" -o "$SRS_FILE"
               continue
             fi
 

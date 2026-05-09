@@ -12,5 +12,16 @@
         "domain_suffix": ["hostinger.com"]
       }
     ]
+  },
+  "geosite-apple-fitness": {
+    "rules": [
+      {
+        "domain_suffix": [
+          "fitness.apple.com",
+          "hls-svod.itunes.apple.com",
+          "hls-svod-ve.itunes.g.aaplimg.com"
+        ]
+      }
+    ]
   }
 }
