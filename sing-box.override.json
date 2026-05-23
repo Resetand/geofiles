@@ -13,6 +13,19 @@
       }
     ]
   },
+  "geosite-kinopub": {
+    "rules": [
+      {
+        "domain_suffix": [
+          "cdntogo.net",
+          "kpserver.link",
+          "pushbr.com",
+          "cdntogo.net",
+          "cdn2cdn.com"
+        ]
+      }
+    ]
+  },
   "geosite-apple-fitness": {
     "rules": [
       {
