@@ -9,7 +9,7 @@
   "geosite-ru-blocked": {
     "rules": [
       {
-        "domain_suffix": ["hostinger.com"]
+        "domain_suffix": ["hostinger.com", "raw.githubusercontent.com"]
       }
     ]
   },
@@ -17,17 +17,14 @@
     "rules": [
       {
         "domain_suffix": [
-          "cdntogo.net",
-          "kpserver.link",
-          "pushbr.com",
-          "cdn2cdn.com",
-          "teleos.club",
-          "digital-cdn.net",
-          "themoviedb.org",
-          "proxykp.xyz",
-          "mycdn.video",
           "cdn32.lol",
-          "flexcdn.cloud"
+          "digital-cdn.net",
+          "flexcdn.cloud",
+          "kpserver.link",
+          "mycdn.video",
+          "proxykp.xyz",
+          "teleos.club",
+          "themoviedb.org"
         ]
       }
     ]
