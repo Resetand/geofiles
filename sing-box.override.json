@@ -2,14 +2,19 @@
   "geosite-github-copilot": {
     "rules": [
       {
-        "domain_suffix": ["githubstatus.com"]
+        "domain_suffix": [
+          "githubstatus.com"
+        ]
       }
     ]
   },
   "geosite-ru-blocked": {
     "rules": [
       {
-        "domain_suffix": ["hostinger.com", "raw.githubusercontent.com"]
+        "domain_suffix": [
+          "hostinger.com",
+          "raw.githubusercontent.com"
+        ]
       }
     ]
   },
@@ -39,6 +44,29 @@
           "hls-svod-ve.itunes.g.aaplimg.com",
           "content.fe2.apple-dns.net",
           "sharedstreams.fe2.apple-dns.net"
+        ]
+      }
+    ]
+  },
+  "geosite-happ-proxy": {
+    "rules": [
+      {
+        "domain_suffix": [
+          "happ-proxy.com",
+          "happ-proxalis.top",
+          "happ-proxy.biz",
+          "happ-proxy.help",
+          "happ-proxy.net",
+          "happ-proxy-utility.info",
+          "happ-proxy-us.vercel.app",
+          "happ-proxy-tech.vercel.app",
+          "happ-proxy-srv.vercel.app",
+          "happ-proxy-sky.vercel.app",
+          "happ-proxy-server.vercel.app",
+          "happ-proxy-root.vercel.app",
+          "happ-proxy-gem.vercel.app",
+          "happ-proxy-flow.vercel.app",
+          "happ-proxy-423.vercel.app"
         ]
       }
     ]
