@@ -70,5 +70,14 @@
         ]
       }
     ]
+  },
+  "geosite-anthropic": {
+    "rules": [
+      {
+        "domain_suffix": [
+          "datadoghq.com"
+        ]
+      }
+    ]
   }
 }
